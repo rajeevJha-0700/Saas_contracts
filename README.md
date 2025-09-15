@@ -3,18 +3,18 @@ Saas Contracts is a cutting-edge contract management SaaS app built with React a
 
 Features
 
-Futuristic UI: Neon gradient background (from-blue-900 via-purple-900 to-pink-900), glassmorphism cards (bg-black/30, backdrop-blur-md), and glowing neon effects (text-cyan-400, hover:ring-cyan-500). 🌃
-Contract Management: Browse contracts (/dashboard), view metadata, clauses, AI insights, and evidence (/contract/:id). 📜
-Upload Modal: Drag-and-drop or browse files (PDF, DOC, DOCX) with mock upload simulation. 📤
-Responsive Design: Mobile sidebar toggle, adaptive layouts for search, filters, and grids. 📱💻
-Authentication: Mock login with any username and password test123, Redux-based state management, and logout. 🔐
+Futuristic UI: Neon gradient background (from-blue-900 via-purple-900 to-pink-900), glassmorphism cards (bg-black/30, backdrop-blur-md), and glowing neon effects (text-cyan-400, hover:ring-cyan-500). 
+Contract Management: Browse contracts (/dashboard), view metadata, clauses, AI insights, and evidence (/contract/:id). 
+Upload Modal: Drag-and-drop or browse files (PDF, DOC, DOCX) with mock upload simulation. 
+Responsive Design: Mobile sidebar toggle, adaptive layouts for search, filters, and grids. 
+Authentication: Mock login with any username and password test123, Redux-based state management, and logout. 
 
 
 Setup Instructions
 
 Clone the Repository:
-git clone https://github.com//ContractsPro.git
-cd ContractsPro
+git clone https://github.com//rajeevJha-0700/Saas_contracts
+cd Saas_contracts
 
 
 Install Dependencies:Ensure Node.js (>=16.x) and npm (>=8.x) are installed, then run:
@@ -113,7 +113,7 @@ npm run dev
 
 Open http://localhost:5173 in your browser.
 
-Login:Use any username and password test123 to access the dashboard. 🔑
+Login:Use any username and password test123 to access the dashboard. 
 
 
 
@@ -212,10 +212,10 @@ Assumed Vercel/Netlify deployment with Vite’s dist output, including mock JSON
 
  Usage
 
-Login: Use any username and password test123. 🔐
-Dashboard: Search, filter, paginate contracts, and open upload modal. 📊
-Contract Details: View metadata, clauses, AI insights, and toggle evidence drawer. 📜
-Upload Modal: Drag-and-drop or browse files (PDF, DOC, DOCX) with mock upload status. 📤
+Login: Use any username and password test123. 
+Dashboard: Search, filter, paginate contracts, and open upload modal. 
+Contract Details: View metadata, clauses, AI insights, and toggle evidence drawer. 
+Upload Modal: Drag-and-drop or browse files (PDF, DOC, DOCX) with mock upload status. 
 
 
 
