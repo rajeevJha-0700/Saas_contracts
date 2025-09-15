@@ -1,0 +1,42 @@
+[
+  {
+    "id": "c1",
+    "name": "MSA 2025",
+    "parties": "Microsoft & ABC Corp",
+    "start": "2023-01-01",
+    "expiry": "2025-12-31",
+    "status": "Active",
+    "risk": "Medium",
+    "clauses": [
+      { "title": "Termination", "summary": "90 days notice period.", "confidence": 0.82 },
+      { "title": "Liability Cap", "summary": "12 months’ fees limit.", "confidence": 0.87 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "Liability cap excludes data breach costs." },
+      { "risk": "Medium", "message": "Renewal auto-renews unless cancelled 60 days before expiry." }
+    ],
+    "evidence": [
+      { "source": "Section 12.2", "snippet": "Total liability limited to 12 months’ fees.", "relevance": 0.91 }
+    ]
+  },
+  {
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "start": "2023-06-01",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+      { "title": "Service Level", "summary": "99.9% uptime guaranteed.", "confidence": 0.95 },
+      { "title": "Termination", "summary": "30 days notice.", "confidence": 0.88 }
+    ],
+    "insights": [
+      { "risk": "High", "message": "Uptime guarantee lacks penalty details." },
+      { "risk": "Low", "message": "Contract allows early termination with minimal fees." }
+    ],
+    "evidence": [
+      { "source": "Section 8.1", "snippet": "Service provider guarantees 99.9% uptime.", "relevance": 0.93 }
+    ]
+  }
+]

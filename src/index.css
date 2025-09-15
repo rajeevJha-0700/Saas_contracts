@@ -1,0 +1,14 @@
+@import "tailwindcss";
+.group:hover .group-hover\:block {
+  display: block;
+}
+@media (max-width: 640px) {
+  .w-64 {
+    width: 100%;
+    position: relative;
+  }
+  .ml-64 {
+    margin-left: 0;
+  }
+}
+
