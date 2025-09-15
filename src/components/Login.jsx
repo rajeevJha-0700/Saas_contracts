@@ -18,8 +18,8 @@ function Login() {
     setIsLoading(true);
     try {
       if (data.password === 'test123') {
-        // dispatch(login({ username: data.username }));
-        // localStorage.setItem('token', 'mock-jwt-token');
+        dispatch(login({ username: data.username }));
+        localStorage.setItem('token', 'mock-jwt-token');
         navigate('/dashboard');
       } else {
         setError('Invalid password. Please use "test123".');
@@ -85,7 +85,7 @@ function Login() {
                 {...register('username', {
                   required: 'Username is required',
                 })}
-                className={`bg-white/20 text-white placeholder-white/50 border border-white/30 rounded-md focus:ring-2 focus:ring-indigo-300 transition-all duration-300 ${
+                className={`bg-white/20 text-black placeholder-white/50 border border-white/30 rounded-md focus:ring-2 focus:ring-indigo-300 transition-all duration-300 ${
                   errors.username ? 'border-red-400 focus:ring-red-400' : ''
                 }`}
               />
@@ -110,7 +110,7 @@ function Login() {
                 {...register('password', {
                   required: 'Password is required',
                 })}
-                className={`bg-white/20 text-white placeholder-white/50 border border-white/30 rounded-md focus:ring-2 focus:ring-indigo-300 transition-all duration-300 ${
+                className={`bg-white/20 text-black placeholder-white/50 border border-white/30 rounded-md focus:ring-2 focus:ring-indigo-300 transition-all duration-300 ${
                   errors.password ? 'border-red-400 focus:ring-red-400' : ''
                 }`}
               />
